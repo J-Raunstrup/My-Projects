@@ -1,0 +1,83 @@
+Query Results
+
+user_id	first_touch_at	utm_source	utm_campaign
+10006	2018-01-24 03:12:16	nytimes	getting-to-know-cool-tshirts
+10030	2018-01-25 20:32:02	buzzfeed	ten-crazy-cool-tshirts-facts
+10045	2018-01-05 18:31:17	nytimes	getting-to-know-cool-tshirts
+10048	2018-01-16 04:17:46	medium	interview-with-cool-tshirts-founder
+10069	2018-01-02 23:14:01	buzzfeed	ten-crazy-cool-tshirts-facts
+10162	2018-01-29 21:37:10	nytimes	getting-to-know-cool-tshirts
+10177	2018-01-24 07:10:33	nytimes	getting-to-know-cool-tshirts
+10254	2018-01-23 22:27:18	medium	interview-with-cool-tshirts-founder
+10329	2018-01-18 05:27:25	medium	interview-with-cool-tshirts-founder
+10354	2018-01-19 10:57:29	nytimes	getting-to-know-cool-tshirts
+
+COUNT(DISTINCT utm_campaign)
+8
+
+COUNT(DISTINCT utm_source)
+6
+
+utm_source	utm_campaign
+nytimes	getting-to-know-cool-tshirts
+email	weekly-newsletter
+buzzfeed	ten-crazy-cool-tshirts-facts
+email	retargetting-campaign
+facebook	retargetting-ad
+medium	interview-with-cool-tshirts-founder
+google	paid-search
+google	cool-tshirts-search
+
+page_name
+1 - landing_page
+2 - shopping_cart
+3 - checkout
+4 - purchase
+
+utm_source	utm_campaign	COUNT(*)
+medium	interview-with-cool-tshirts-founder	622
+nytimes	getting-to-know-cool-tshirts	612
+buzzfeed	ten-crazy-cool-tshirts-facts	576
+google	cool-tshirts-search	169
+
+utm_source	utm_campaign	COUNT(*)
+email	weekly-newsletter	447
+facebook	retargetting-ad	443
+email	retargetting-campaign	245
+nytimes	getting-to-know-cool-tshirts	232
+buzzfeed	ten-crazy-cool-tshirts-facts	190
+medium	interview-with-cool-tshirts-founder	184
+google	paid-search	178
+google	cool-tshirts-search	60
+
+COUNT(user_id)
+361
+
+COUNT(user_id)	page_name
+2000	1 - landing_page
+1900	2 - shopping_cart
+1431	3 - checkout
+361	4 - purchase
+
+user_id	last_touch_at	utm_source	utm_campaign	COUNT(utm_campaign)
+10162	2018-02-01 04:26:10	email	weekly-newsletter	115
+10069	2018-01-04 08:13:01	facebook	retargetting-ad	113
+10030	2018-01-28 13:38:02	email	retargetting-campaign	54
+10354	2018-01-22 02:00:29	google	paid-search	52
+22224	2018-01-26 06:30:52	buzzfeed	ten-crazy-cool-tshirts-facts	9
+26835	2018-01-07 02:12:04	nytimes	getting-to-know-cool-tshirts	9
+14770	2018-01-15 22:54:18	medium	interview-with-cool-tshirts-founder	7
+48931	2018-01-17 10:39:53	google	cool-tshirts-search	2
+
+Database Schema
+page_visits
+name	type
+page_name	TEXT
+timestamp	TEXT
+user_id	INTEGER
+utm_campaign	TEXT
+utm_source	TEXT
+
+
+
+Rows: 5692

@@ -1,0 +1,9 @@
+asia/arabic.txt
+asia/bengali.txt
+asia/chinese.txt
+asia/hebrew.txt
+asia/hindi.txt
+asia/japanese.txt
+asia/korean.txt
+asia/malay.txt
+asia/punjabi.txt

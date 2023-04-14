@@ -1,0 +1,381 @@
+@font-face {
+    font-family: firstFont;
+    src: url(../fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(../fonts/FontAwesome.otf);
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: forthFont;
+    src: url(../fonts/OpenSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: fifthFont;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: sixthFont;
+    src: url(../fonts/OpenSans-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: seventhFont;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: eightFont;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: ninthFont;
+    src: url(../fonts/OpenSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: tenthFont;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: eleventhFont;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: twelvthFont;
+    src: url(../fonts/OpenSans-SemiboldItalic.ttf);
+}
+
+
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+/* skriv kode om til rem hvis tid til overs. husk html kode standard tekst er 16px. altså er 1 rem = 16px*/
+
+header {
+    background-color: darkcyan;
+    display: inline-flex;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+.headerLogo {
+    background-position: center;
+    height: 15%;
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: eleventhFont;
+}
+
+.headerText p {
+    padding-left: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.teambuilding {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: url(../images/galleri.png);
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: secondFont;
+}
+
+.teambuildingText {
+    position: absolute;
+    left:  90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: eightFont;
+}
+
+.teambuildingText h1 {
+    font-size: 90px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.teambuildingText h4 {
+    font-family: eightFont;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.teambuildingText h5 {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.teambuildingText h6 {
+    font-family: thirdFont;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.andreEvents {
+    background-color: white;
+}
+
+.andreEvents h2 {
+    display: flex;
+    justify-content: center;
+    font-family: eightFont;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.andreEvents h3 {
+    font-family: eightFont;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.andreEvents p {
+    display: flex;
+    justify-content: center;
+}
+
+.andreEventsTextBoxe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.andreEvents h5 {
+    font-family: eightFont;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.eventsRow1 {
+    display: flex;
+}
+
+.eventsRow2 {
+    display: flex;
+}
+
+.konferrencer {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.reception {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.oktoberfest {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.julefrokost {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.middelalder {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.action {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    width: min-content;
+}
+
+.eventsText {
+    font-family: tenthFont;
+    color: gray;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border: 2px solid darkorange;
+    color: darkorange;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+.kontaktOs {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: eightFont;
+}
+
+.kontaktOs h4 {
+    font-family: thirdFont;
+}
+
+.kontaktInfo {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.kontaktInfo p {
+    width: 75%;
+}
+
+.sendBesked {
+    width: 85%;
+    height: 100%;
+}
+
+.sendBesked input {
+    width: 80%;
+    background-color: black;
+    color: darkgray;
+    padding: 10px 20px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-family: eightFont;
+}
+
+#blåtekstknap {
+    background-color: darkcyan;
+    color: white;
+    font-family: thirdFont;
+    border: none;
+}
+
+.tb1 {
+    font-family: firstFont;
+}
+
+.tb2 {
+    font-family: secondFont;
+}
+
+.tb3 {
+    font-family: thirdFont;
+}
+
+.tb4 {
+    font-family: forthFont;
+}
+
+.tb5 {
+    font-family: fifthFont;
+}
+
+.tb6 {
+    font-family: sixthFont;
+}
+
+.tb7 {
+    font-family: seventhFont;
+}
+
+.tb8 {
+    font-family: eightFont;
+}
+
+.tb9 {
+    font-family: ninthFont;
+}
+
+.tb10 {
+    font-family: tenthFont;
+}
+
+.tb11 {
+    font-family: eleventhFont;
+}
+
+.tb12 {
+    font-family: twelvthFont;
+}
+
+
+

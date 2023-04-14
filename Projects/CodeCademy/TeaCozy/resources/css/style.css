@@ -1,0 +1,123 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*header section*/
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+.header-img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.header-text {
+    display: flex;
+}
+
+.header-text p {
+    margin-left: 25px;
+}
+.header-text {
+    margin-right: 10px;
+}
+
+.location-section h2 {
+    padding-top: 40px;
+}
+
+/*our mission section*/
+.ourMission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.our-mission-list {
+    background-color: black;
+    width: 1200px;
+}
+
+.ourMission h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ourMission h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*tea of the month section*/
+.teaOTM {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tea-img {
+    height: 200px;
+    width: 300px;
+}
+
+.teaOTM h3 {
+    margin-top: 10px;
+} 
+
+/*location section*/
+.location-section {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-boxes {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 0px 20px;
+    opacity: 1;
+}
+
+.theTeaCozy {
+    height: 200px;
+}
+
+/*location section*/
+footer {
+    display: flex;
+    margin-left: 20px;
+}
